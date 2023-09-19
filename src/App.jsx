@@ -3,6 +3,7 @@ import './App.css'
 import AboutUs from './components/AboutUs/AboutUs'
 import Servicios from './components/Servicios/Servicios'
 import Equipo from './components/Equipo/Equipo'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <AboutUs/>
       <Servicios/>
       <Equipo/>
+      <Footer/>
       
     </div>
   )
