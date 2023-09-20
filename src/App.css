@@ -21,6 +21,6 @@ body{
 }
 
 .subContainer {
-  background-image: linear-gradient(grey,rgba(0, 0, 0, 0.459), #0f3939);
+  background-image: linear-gradient(rgb(82, 80, 80),rgba(0, 0, 0, 0.459), #0f3939);
   margin-top: -30px;
 }
