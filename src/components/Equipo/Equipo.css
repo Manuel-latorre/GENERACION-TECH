@@ -41,7 +41,7 @@ margin-bottom: 200px;
 background-position: center;
 background-size: cover;
 width: 300px;
-height: 500px;
+height: 550px;
 margin: 50px;
 }
 
@@ -49,11 +49,6 @@ margin: 50px;
 display: block;
 width: 100%;
 }
-
-
-
-
-
 
 .button{
   display: flex;
@@ -86,7 +81,7 @@ flex-direction: column;
 justify-content: center;
 background: #222222;
 width: 300px;
-height:480px;
+height:550px;
 align-items: center;
 position: relative;
 overflow: hidden;
