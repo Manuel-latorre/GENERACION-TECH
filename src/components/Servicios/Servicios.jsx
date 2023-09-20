@@ -9,7 +9,7 @@ import comercio from './comercio1.json'
 const Servicios = () => {
   return (
     <div style={{marginBottom:100}}>
-        <h2 style={{textAlign:'center', marginBottom: 100, fontSize: 30}}>Servicios</h2>
+        <h2 style={{textAlign:'center', marginTop: 200, marginBottom: 50 , fontSize: 30}}>Servicios</h2>
         <div style={{display:'flex', justifyContent:'space-around'}}>
 
             <div className="card-container">

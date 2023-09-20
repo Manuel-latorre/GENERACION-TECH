@@ -10,9 +10,9 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='container'>
-        <div style={{display:'flex', alignItems:'center', marginLeft: 40}}>
+        <div style={{display:'flex', alignItems:'center', justifyContent: 'center'}}>
             <img className='logo' src={logo} alt='logo' style={{marginTop:40}}/>
-            <div style={{display:'flex', flexDirection:'column', marginLeft:15, marginTop:40}}>
+            <div style={{display:'flex', flexDirection:'row', marginTop:40}}>
                 <p style={{fontSize:26}}>Generación</p>
                 <strong style={{color: '#00ccc4', fontSize:26}}>Tech</strong>
             </div>

@@ -39,7 +39,7 @@ const Navbar = () => {
     
         <nav className={`nav ${isScrolled ? 'scrolled' : ''}`}>
             <div style={{display:'flex', alignItems:'center'}}>
-                <img src={logo} alt="" />
+                <img className='logo' src={logo} alt="" />
                 
                 <h1 className='generacion'>Generacion <strong className='tech'>Tech</strong></h1>
             </div>
