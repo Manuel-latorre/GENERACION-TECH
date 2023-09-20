@@ -13,10 +13,14 @@ function App() {
     <div className="app">
       <Navbar />
       <AboutUs/>
+
+      <div className='subContainer'>
+
       <Servicios/>
       <Equipo/>
       <Contacto/>
       <Footer/>
+      </div>
       
     </div>
   )

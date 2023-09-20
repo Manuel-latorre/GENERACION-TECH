@@ -10,6 +10,7 @@
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     width: 80%;
     margin: auto;
+    padding: 15px;
 }
 
 
@@ -51,7 +52,7 @@
 
 .btnContactame:hover{
    color: white;
-   background:  #00ccc4; 
+   background:  #47fff94c; 
    box-shadow: 0 0 10px #19fff6, 0 0 40px #19fff6, 0 0 80px #19fff6;
    transition-delay: 1s;
    border: none;
