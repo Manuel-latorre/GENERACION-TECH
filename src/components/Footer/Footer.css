@@ -1,5 +1,6 @@
 .containerFooter{
-    background-color: rgb(12, 12, 12);
+    background:linear-gradient(to top,rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    
     height: auto;
     display: flex;
     flex-direction: column;

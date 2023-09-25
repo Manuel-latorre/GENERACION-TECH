@@ -16,11 +16,10 @@ body{
   background-size: cover;
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, 0.585); 
-  background-color: #393939; 
   height: 100vh;
 }
 
 .subContainer {
-  background-image: linear-gradient(rgb(82, 80, 80),rgba(0, 0, 0, 0.459), #0f3939);
-  margin-top: -30px;
+  background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.719), #0f3939);
+  margin-top: -20px;
 }

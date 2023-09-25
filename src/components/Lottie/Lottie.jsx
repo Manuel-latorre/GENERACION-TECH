@@ -1,10 +1,10 @@
 import Lottie from 'lottie-react'
 import about from '../../assets/about.json'
-
+import img from "./pc.png"
 const About = () => {
   return (
     <div>
-        <Lottie style={{width: 500}} animationData={about} loop={true}/>
+        <img src={img} alt="" style={{width:500, padding:50}}/>
     </div>
   )
 }
