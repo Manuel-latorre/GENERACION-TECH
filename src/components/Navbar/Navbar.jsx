@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
 
             <div className='nav_items'>
-                <a onClick={handleNosotrosClick} className='btnNav' href="nosotros">
+                <a onClick={handleNosotrosClick} className='btnNav' href="#nosotros">
                     <span></span>
                     <span></span>
                     <span></span>
