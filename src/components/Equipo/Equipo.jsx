@@ -151,7 +151,7 @@ import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 export default function Equipo() {
   return (
     <>
-      <div style={{ marginTop: 200 }}>
+      <div style={{ marginTop: 200 }} id='nuestroEquipo'>
         <div>
           <p
             style={{
