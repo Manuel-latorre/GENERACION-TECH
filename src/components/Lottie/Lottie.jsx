@@ -2,12 +2,12 @@ import Lottie from 'lottie-react'
 import about from '../../assets/about.json'
 // import img from "./pc.png"
 import img from '../../assets/note.png'
-
+import './Lottie.css'
 
 const About = () => {
   return (
     <div>
-        <img src={img} alt="" style={{width:500, padding:50}}/>
+        <img src={img} alt="" className='pcLottie'/>
     </div>
   )
 }

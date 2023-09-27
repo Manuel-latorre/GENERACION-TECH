@@ -2,6 +2,9 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+import Contacto from './components/Contacto/Contacto'
+import Faqs from './components/Faqs/Faqs'
+import ContactoFaqs from './components/Faqs/ContactoFaqs'
 import { Route, Routes } from 'react-router'
 import Home from './components/Home/Home'
 import QuienesSomos from './components/QuienesSomos/QuienesSomos'
@@ -15,6 +18,12 @@ function App() {
   return (
     <div className="app">
       <Navbar />
+      <AboutUs/>
+      <Servicios/>
+      <ContactoFaqs/>
+      <Faqs/>
+      <Equipo/>
+      <Contacto/>
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/nosotros' element={<QuienesSomos/>}/>
@@ -22,6 +31,7 @@ function App() {
       <Route path='/marketing' element={<Marketing/>}/>
       <Route path='/comercio' element={<Comercio/>}/>
       </Routes>
+
       <Footer/>
       </div>
       

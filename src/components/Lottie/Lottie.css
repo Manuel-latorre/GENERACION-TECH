@@ -1,0 +1,15 @@
+pcLottie{
+    width: 500px;
+}
+
+@media(max-width:500px){
+    .pcLottie{
+        width: 400px;
+    }
+}
+
+@media(max-width: 400px){
+    .pcLottie{
+        width: 300px;
+    }
+}
