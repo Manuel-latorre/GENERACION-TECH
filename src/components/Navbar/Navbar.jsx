@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 import './Navbar.css'
 import Loader from '../Loader/Loader'
 
 const Navbar = () => {
-
+    const [isOpen, setIsOpen] = useState(false)
     const [isScrolled, setIsScrolled] = useState(false);
     const [showLoader, setShowLoader] = useState(false);
 
@@ -37,14 +37,13 @@ const Navbar = () => {
 
   return (
     
-        <nav className={`nav ${isScrolled ? 'scrolled' : ''}`}>
-            <div style={{display:'flex', alignItems:'center'}}>
-                <img className='logo' src={logo} alt="" />
-                
-                <h1 className='generacion'>Generacion <strong className='tech'>Tech</strong></h1>
+        <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+
+            <div>
+                <img  className='logo' src={logo} alt="" />
             </div>
 
-            <div className='nav_items'>
+            <div  className={`nav_items ${isOpen && 'open'}`}>
                 <a onClick={handleNosotrosClick} className='btnNav' href="nosotros">
                     <span></span>
                     <span></span>
@@ -69,8 +68,20 @@ const Navbar = () => {
                     <span></span>
                     <span></span>
                     <span></span>
+                    FQAS
+                </a>
+                <a onClick={handleNosotrosClick} className='btnNav' href="#contacto">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                     Contacto
                 </a>
+            </div>
+            <div className={`nav_toggle ${isOpen && 'open'}`} onClick={() => setIsOpen(!isOpen)} >
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             {showLoader && <Loader />}
         </nav>

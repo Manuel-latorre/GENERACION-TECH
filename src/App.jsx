@@ -1,10 +1,12 @@
-import Navbar from './components/Navbar/Navbar'
+
 import './App.css'
+import Navbar from './components/Navbar/Navbar'
 import AboutUs from './components/AboutUs/AboutUs'
 import Servicios from './components/Servicios/Servicios'
 import Equipo from './components/Equipo/Equipo'
 import Footer from './components/Footer/Footer'
 import Contacto from './components/Contacto/Contacto'
+import Faqs from './components/Faqs/Faqs'
 
 function App() {
 
@@ -14,15 +16,16 @@ function App() {
       <Navbar />
       <AboutUs/>
 
-      <div className='subContainer'>
+
 
       <Servicios/>
+      <Faqs/>
       <Equipo/>
       <Contacto/>
       <Footer/>
       </div>
       
-    </div>
+    
   )
 }
 

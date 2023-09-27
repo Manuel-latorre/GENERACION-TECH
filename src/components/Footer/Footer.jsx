@@ -1,14 +1,13 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import EmailIcon from '@mui/icons-material/Email';
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-import FmdGoodIcon from '@mui/icons-material/FmdGood';
+import phone from './cell-phone.png'
+import email from './email.png'
+import instagram from './instagram.png'
+import linkedin from './linkedin.png'
+import twitter from './twitter.png'
+import pin from './pin.png'
 import './Footer.css'
-import { fontSize } from '@mui/system';
+
 
 const Footer = () => {
   return (
@@ -19,19 +18,21 @@ const Footer = () => {
         </div>
       <div className="sectionContainerF">
         <div className="contacto">
-        <h3>Contacto</h3>
-        <div className="mail">
-        <EmailIcon sx={{fontSize:40, margin:2, }}/>
-        <p>GeneracionTech@gmail.com</p>
-        </div>
-        <div className="phoneContainer">
-            <PhoneIphoneIcon sx={{fontSize:40, margin:2}}/>
-            <p>+54 11 54664834</p>
-        </div>
-        <div className="location">
-            <FmdGoodIcon sx={{fontSize:40, margin:2}}/>
-            <p>Cordoba, Cordoba, Cordoba Berenjenuda 200</p>
-        </div>
+          <h3>Contacto</h3>
+          <div className="contact">
+              <img src={email} alt="" />
+              <p style={{marginLeft:10}}>GeneracionTech@gmail.com</p>
+          </div>
+
+          <div className="contact">
+              <img src={phone} alt="" />
+              <p style={{marginLeft:10}}>+54 11 54664834</p>
+          </div>
+
+          <div className="contact">
+              <img src={pin} alt="" />
+              <p style={{marginLeft:10}}>Cordoba, Cordoba, Cordoba Berenjenuda 200</p>
+          </div>
         </div>
         <div className="linksContainerFooter">
         <h3>Links</h3>
@@ -44,18 +45,21 @@ const Footer = () => {
         </div>
         </div>
         <div className="redesContainerFooter">
-        <h3>Redes</h3>
+        <h3 style={{textAlign:'center'}}>Redes</h3>
+
             <div className="linkedinContainer">
-            <LinkedInIcon  sx={{fontSize:30, margin:2}}/>
-            <p>Linkedin</p>
+              <img  src={linkedin} alt="logo linkedin"/>
+              <p style={{marginLeft:10}}>Linkedin</p>
             </div>
+
             <div className="linkedinContainer">
-            <InstagramIcon  sx={{fontSize:30, margin:2}}/>
-            <p>Instagram</p>
+              <img style={{width:'25px'}} src={instagram} alt="Instagram logo" />
+              <p style={{marginLeft:10}}>Instagram</p>
             </div>
+
             <div className="linkedinContainer">
-            <TwitterIcon  sx={{fontSize:30, margin:2}}/>
-            <p>Twitter</p>
+              <img src={twitter} alt="logo twitter" />
+              <p style={{marginLeft:10}}>Twitter</p>
             </div>
         </div>
       </div>
