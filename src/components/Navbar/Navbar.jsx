@@ -43,6 +43,7 @@ const Navbar = () => {
                 <img  className='logo' src={logo} alt="" />
             </div>
 
+
             <div  className={`nav_items ${isOpen && 'open'}`}>
                 <a onClick={handleNosotrosClick} className='btnNav' href="nosotros">
                     <span></span>
