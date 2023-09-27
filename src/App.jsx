@@ -11,6 +11,10 @@ import QuienesSomos from './components/QuienesSomos/QuienesSomos'
 import Desarrollo from './components/Desarrollo/Desarrollo'
 import Marketing from './components/Marketing/Marketing'
 import Comercio from './components/Comercio/Comercio'
+import AboutUs from './components/AboutUs/AboutUs'
+import Servicios from './components/Servicios/Servicios'
+import Equipo from './components/Equipo/Equipo'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
 
@@ -31,7 +35,7 @@ function App() {
       <Route path='/marketing' element={<Marketing/>}/>
       <Route path='/comercio' element={<Comercio/>}/>
       </Routes>
-
+      <ScrollToTop/>
       <Footer/>
       </div>
       
