@@ -24,7 +24,7 @@ const AboutUs = () => {
             <span></span>
             <span></span>
             Contacto
-        </a><a className='btnContactame' href="#contacto">
+        </a><a className='btnContactame' href="nosotros">
             <span></span>
             <span></span>
             <span></span>

@@ -15,7 +15,10 @@ const info={
 }
 const QuienesSomos = () => {
     return (
-        <View info={info}/>
+        
+
+            <View info={info}/>
+        
     )
 };
 
