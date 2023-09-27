@@ -4,7 +4,7 @@ import './Contacto.css'
 
 const Contacto = () => {
   return (
-    <div style={{padding:50}}>
+    <div style={{padding:50}} id='contacto'>
         <hr style={{color:'#f2f2f2', width: '90vw', margin:'auto', marginTop: 100, marginBottom: 50}} />
         <p style={{fontSize: 30, fontWeight: '400', textAlign:'center', marginBottom: 80, marginTop: 50}}>CONTACTO</p>
 
