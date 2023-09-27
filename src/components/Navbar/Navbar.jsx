@@ -68,7 +68,7 @@ const Navbar = () => {
                     <span></span>
                     <span></span>
                     <span></span>
-                    FQAS
+                    FAQs
                 </a>
                 <a onClick={handleNosotrosClick} className='btnNav' href="#contacto">
                     <span></span>

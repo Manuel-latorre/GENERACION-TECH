@@ -7,6 +7,7 @@ import Equipo from './components/Equipo/Equipo'
 import Footer from './components/Footer/Footer'
 import Contacto from './components/Contacto/Contacto'
 import Faqs from './components/Faqs/Faqs'
+import ContactoFaqs from './components/Faqs/ContactoFaqs'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
 
       <Servicios/>
+      <ContactoFaqs/>
       <Faqs/>
       <Equipo/>
       <Contacto/>
