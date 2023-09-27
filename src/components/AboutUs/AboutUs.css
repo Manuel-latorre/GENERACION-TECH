@@ -16,9 +16,10 @@
 
 .aboutText{
     width: 70%;
-    text-align: start;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .aboutText h1{
@@ -102,4 +103,26 @@
     width: 2px;
     height: 100%;
     background: linear-gradient(180deg, transparent, #19fff6);
+}
+
+@media(max-width:1404px){
+    .main{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .aboutText{
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 654px){
+    .btnAbout{
+        flex-direction: column;
+        place-items: center;
+    }
+    .btnContactame{
+        width: 200px;
+        justify-content: center;
+    }
 }

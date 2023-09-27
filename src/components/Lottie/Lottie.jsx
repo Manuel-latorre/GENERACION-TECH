@@ -1,6 +1,9 @@
 import Lottie from 'lottie-react'
 import about from '../../assets/about.json'
-import img from "./pc.png"
+// import img from "./pc.png"
+import img from '../../assets/note.png'
+
+
 const About = () => {
   return (
     <div>

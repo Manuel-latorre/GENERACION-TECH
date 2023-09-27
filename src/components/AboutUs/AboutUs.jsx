@@ -12,10 +12,9 @@ const AboutUs = () => {
           
         
         <h4 style={{fontWeight:400, textAlign:"center", fontSize:18}}>Somos tu agencia digital para que puedas crecer en el mundo de la tecnologia</h4>
-        <hr  style={{color: 'gray', margin: 14}}/>
+        <hr style={{width: '80%', margin:'auto', marginTop:'3%', marginBottom:'3%'}}/>
         <div style={{width:'70%', textAlign:'center', margin:'auto', marginTop: 20}}>
           <p>¡Bienvenido a una nueva era de posibilidades para tu negocio! Somos Generación Tech una Empresa innovadora especializada en desarrollos y servicios tecnológicos. Nuestro equipo integrado por jóvenes profesionales está dispuesto a llevar tu negocio al siguiente nivel  “El Mercado Digital”</p>
-
         </div>
 
         <div className='btnAbout'>

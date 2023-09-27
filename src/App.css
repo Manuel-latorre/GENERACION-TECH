@@ -10,17 +10,12 @@
   color: white;
 }
 
-body{
-  background-image: url('./assets/gif1.gif');
+.app{
+  position: sticky;
+  background-image: url('./assets/bgTictoe1.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, 0.585); 
-  height: 100vh;
-  scroll-behavior: smooth;
 }
 
-.subContainer {
-  background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.719), #0f3939);
-  margin-top: -20px;
-}
