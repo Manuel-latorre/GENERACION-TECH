@@ -45,6 +45,12 @@ const Navbar = () => {
 
 
             <div  className={`nav_items ${isOpen && 'open'}`}>
+            <a onClick={handleNosotrosClick} className='btnNav' href="/">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Inicio</a>
                 <a onClick={handleNosotrosClick} className='btnNav' href="nosotros">
                     <span></span>
                     <span></span>

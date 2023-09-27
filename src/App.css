@@ -8,12 +8,12 @@
   font-family: 'Montserrat', sans-serif;
   /* font-family: 'Kanit', sans-serif; */
   color: white;
+  scroll-behavior: smooth;
 }
 
 .app{
-  position: sticky;
   background-image: url('./assets/bgTictoe1.gif');
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-size: cover;
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, 0.585); 

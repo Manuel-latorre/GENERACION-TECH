@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className='containerFooter'>
         <div className="logoFooter">
-        <img src={logo} alt="" />
+        <img src={logo} alt="" className=''/>
         <h2>Generacion <br /><span style={{color:"#00fff5"}}>Tech</span></h2>
         </div>
       <div className="sectionContainerF">
@@ -65,9 +65,9 @@ const Footer = () => {
       </div>
       <div className="terminosFooter">
         <p style={{fontSize:10}}>Terminos y condiciones</p>
-        <hr  style={{width:120, marginLeft: 20  , marginRight: 20, fontSize:2}}/>
+        <hr  style={{ marginLeft: 20  , marginRight: 20, fontSize:2}}/>
         <p style={{fontSize:10}}>Privacidad</p>
-        <hr  style={{width:120, marginLeft: 20  , marginRight: 20}}/>
+        <hr  style={{ marginLeft: 20  , marginRight: 20}}/>
         <p style={{fontSize:10}}>Politica y Privacidad</p>
       </div>
     </div>
