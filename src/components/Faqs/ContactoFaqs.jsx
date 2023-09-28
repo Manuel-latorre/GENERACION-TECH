@@ -4,7 +4,7 @@ import './ContactoFaqs.css'
 
 const ContactoFaqs = () => {
   return (
-    <div style={{marginTop: 100}}>
+    <div style={{marginTop: 100}} id='faqs'>
         <p style={{textAlign:'center', fontSize:30}}>PREGUNTAS FRECUENTES</p>
         <div className='container-faqs-solucion'>
             <div className='container-texto-faqs'>
