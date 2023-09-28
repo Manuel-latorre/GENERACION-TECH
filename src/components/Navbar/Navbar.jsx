@@ -57,27 +57,27 @@ const Navbar = () => {
                     <span></span>
                     <span></span>
                     Nosotros</a>
-                <a onClick={handleNosotrosClick} className='btnNav' href="#servicios">
+                <a onClick={handleNosotrosClick} className='btnNav' href="/#servicios">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Servicios</a>
-                <a onClick={handleNosotrosClick} className='btnNav' href="#nuestroEquipo">
+                <a onClick={handleNosotrosClick} className='btnNav' href="/#nuestroEquipo">
                 <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Nuestro Equipo
                 </a>
-                <a onClick={handleNosotrosClick} className='btnNav' href="#contacto">
+                <a onClick={handleNosotrosClick} className='btnNav' href="/#faqs">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     FAQs
                 </a>
-                <a onClick={handleNosotrosClick} className='btnNav' href="#contacto">
+                <a onClick={handleNosotrosClick} className='btnNav' href="/#contacto">
                     <span></span>
                     <span></span>
                     <span></span>
