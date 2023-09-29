@@ -1,21 +1,74 @@
-import React from 'react'
+import React, { useState, useRef} from 'react'
 import './Contacto.css'
+import { validate } from './validation/validation';
+import Loader from '../Loader/Loader'
+import emailjs from '@emailjs/browser';
 
 
 const Contacto = () => {
+  const formulario = useRef();
+
+  const [showLoader, setShowLoader] = useState(false);
+  const [form, setForm]= useState({
+    name:'',
+    email:'',
+    tel:'',
+    text:''
+  })
+  const [errors, setErrors]= useState({});
+
+  const handleChange= (event)=>{
+    setForm({...form, [event.target.name]: event.target.value})
+    setErrors(validate({...form, [event.target.name]: event.target.value}))
+  }
+ 
+  const disabled=()=>{
+    if(errors.name || errors.email || errors.tel || errors.text || !form.email || !form.name || !form.text) return true;
+    else return false
+  }
+ 
+  const handleSubmit=(event)=>{
+    event.preventDefault();
+    setShowLoader(true);
+    setTimeout(() => {
+      setShowLoader(false);
+      alert('Su consulta fue enviada con éxito')
+    }, 2000);
+    emailjs.sendForm('service_k8v9j6h', 'template_1o992gh', formulario.current, 'zYxLAVDYmQaJG4_j3')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    setForm({
+      name:'',
+      email:'',
+      tel:'',
+      text:''
+    })
+    setErrors({})
+  }
   return (
     <div style={{padding:50}} id='contacto'>
         <hr style={{color:'#f2f2f2', width: '90vw', margin:'auto', marginTop: 100, marginBottom: 50}} />
         <p style={{fontSize: 30, fontWeight: '400', textAlign:'center', marginBottom: 80, marginTop: 50}}>CONTACTO</p>
 
-        <div className='form'>
-            <input className='inputForm' type="text" placeholder='Introduzca su nombre ...' />
-            <input className='inputForm' type="text" placeholder='Introduzca su Email ...'/>
-            <input className='inputForm' type="text" placeholder='Introduzca su telefono ...'/>
-            <textarea className='textArea' placeholder='Contanos en que podemos ayudarte ...'></textarea>
+        <form className='form' onSubmit={handleSubmit} ref={formulario}>
+            <input className='inputForm' type="text" placeholder='Introduzca su nombre ...' name='name' value={form.name} onChange={handleChange} />
+            {errors.name && <p>{errors.name}</p>}
 
-            <button className='btnEnviar'> ENVIAR </button>
-        </div>
+            <input className='inputForm' type="text" placeholder='Introduzca su Email ...' name='email' value={form.email} onChange={handleChange}/>
+            {errors.email && <p>{errors.email}</p>}
+
+            <input className='inputForm' type="tel" placeholder='Introduzca su telefono ...' name='tel' value={form.tel} onChange={handleChange}/>
+            {errors.tel && <p>{errors.tel}</p>}
+
+            <textarea className='textArea' placeholder='Contanos en que podemos ayudarte ...' name='text' value={form.text} onChange={handleChange}></textarea>
+            {errors.text && <p>{errors.text}</p>}
+
+            <button className='btnEnviar' disabled={disabled()}> ENVIAR </button>
+        </form>
+        {showLoader && <Loader />}
     </div>
   )
 }
