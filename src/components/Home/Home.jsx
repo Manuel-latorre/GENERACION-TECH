@@ -15,7 +15,7 @@ const Home= ()=>{
             <ContactoFaqs/>
             <Faqs/>
             <Equipo/>
-            {/* <Contacto/> */}
+            <Contacto/>
         </>
     )
 }

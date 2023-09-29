@@ -15,7 +15,7 @@
     border-radius: 10px;
     border: none;
     margin: 20px;
-    width: 800px; 
+    width: 60%; 
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #00fff5;
@@ -26,7 +26,7 @@
     padding: 10px; 
     border: none;
     height: 300px;
-    width: 800px;
+    width: 60%;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.76); 
     border-bottom-style: solid;
@@ -50,4 +50,13 @@
 .btnEnviar:disabled{
     background-color: #027e7a53;
     cursor: auto;
+}
+
+@media(max-width:800px){
+    .textArea{
+        width: 90%;
+    }
+    .inputForm{
+        width: 90%;
+    }
 }
