@@ -4,6 +4,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './Faqs.css'
+import { Slide } from "react-awesome-reveal";
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -17,6 +18,8 @@ export default function ControlledAccordions() {
       
     <div className='container-accordion'>
     <div className='accordion'>
+      <Slide direction='left'>
+
       <Accordion style={{backgroundColor:'#222222', borderTopLeftRadius:25, borderTopRightRadius:25}}  expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
         style={{ borderRadius:35, height:100}}
@@ -30,6 +33,9 @@ export default function ControlledAccordions() {
           <p style={{marginLeft: 10}}>Podes contactarnos completando el formulario desde la sección de “contacto” o simplemente tocar en el botón de chat de nuestra página para hablar con un representante en tiempo real.</p>
         </AccordionDetails>
       </Accordion>
+          </Slide>
+      <Slide direction='right'>
+
       <Accordion style={{backgroundColor:'#222222'}} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
            style={{ height:100}}
@@ -43,6 +49,9 @@ export default function ControlledAccordions() {
           <p style={{marginLeft: 10}}>Podes ver la descripción de cada servicio en la sección “servicios”, si no sabes cual es el mejor para tu empresa, envianos un email desde la sección de “contacto”o presiona el botón de chat para hablar con uno de nuestros representantes.</p>
         </AccordionDetails>
       </Accordion>
+        </Slide>
+        <Slide direction='left'>
+
       <Accordion style={{backgroundColor:'#222222'}} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary
            style={{ height:100}}
@@ -57,6 +66,9 @@ export default function ControlledAccordions() {
           <p style={{marginLeft: 10}}>Si, contactanos y te asesoramos para armar un pack personalizado según tus necesidades.</p>
         </AccordionDetails>
       </Accordion>
+             </Slide>
+             <Slide direction='right'>
+
       <Accordion style={{backgroundColor:'#222222'}} expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <AccordionSummary
            style={{ height:100}}
@@ -70,6 +82,8 @@ export default function ControlledAccordions() {
           <p style={{marginLeft: 10}}>Depende. Según el servicio elegido, la complejidad del proyecto, y las funcionalidades se va a estipular un tiempo de entrega.</p>
         </AccordionDetails>
       </Accordion>
+      </Slide>
+      <Slide direction='left'>
 
       <Accordion style={{backgroundColor:'#222222', borderBottomLeftRadius: 25, borderBottomRightRadius:25}} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <AccordionSummary
@@ -84,6 +98,7 @@ export default function ControlledAccordions() {
           <p style={{marginLeft: 10}}>-----------------</p>
         </AccordionDetails>
       </Accordion>
+             </Slide>
     </div>
   </div>
       

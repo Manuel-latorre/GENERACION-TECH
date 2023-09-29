@@ -1,7 +1,10 @@
 import './View.css';
+import { Fade } from "react-awesome-reveal";
 const View=({info})=>{
     
     return(
+        <Fade>
+
         <div className="container">
             <div className='divej'>
                  <h1>{info.title}</h1>
@@ -13,10 +16,14 @@ const View=({info})=>{
             </div>
             {
                 info.title === '¿Quienes Somos?' 
-                ? <h3 className='areas'>Áreas</h3>
-                : <div className="description2">
+                ?
+                <div className='areaContain'>
+                <h3 className='areas'>Áreas</h3>
+                </div> 
+
+: <div className="description2">
                     {/* imagen con los servicios como en el ejemplo */}
-                    <p style={{color: 'white', fontSize: '18px'}}>{info.services}</p>
+                    <p className='description2P'>{info.services}</p>
                 </div>
             }
             
@@ -39,6 +46,7 @@ const View=({info})=>{
                 </div>
             </div> 
         </div>
+            </Fade>
     )
 }
 
