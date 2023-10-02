@@ -2,7 +2,7 @@ import View from "../View/View";
 import img from '../../assets/bg.gif'
 
 const info={
-    title: 'Marketin Digital',
+    title: 'Marketing Digital',
     image: img,
     description: ' Nuestras soluciones en marketing digital involucran estrategias y tácticas en línea para promocionar productos o servicios. Esto incluye la planificación de campañas, la creación de contenido, la gestión de redes sociales, la publicidad en línea, el análisis de datos y la optimización. Nuestro objetivo es aumentar la visibilidad, atraer clientes potenciales y convertirlos en ventas, todo mientras se mide y se ajusta continuamente la estrategia para obtener resultados efectivos.',
     // imgServices:,
