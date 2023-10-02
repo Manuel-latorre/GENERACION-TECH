@@ -1,9 +1,9 @@
 import './View.css';
-import { Fade } from "react-awesome-reveal";
+
 const View=({info})=>{
     
     return(
-        <Fade>
+       
 
         <div className="container">
             <div className='divej'>
@@ -46,7 +46,7 @@ const View=({info})=>{
                 </div>
             </div> 
         </div>
-            </Fade>
+           
     )
 }
 

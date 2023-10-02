@@ -3,12 +3,13 @@ import './Contacto.css'
 import { validate } from './validation/validation';
 import Loader from '../Loader/Loader'
 import emailjs from '@emailjs/browser';
+import { Alert } from '@mui/material';
 
 
 const Contacto = () => {
   const formulario = useRef();
-
-  const [showLoader, setShowLoader] = useState(false);
+  const [openAlert, setOpenAlert]= useState(false);
+  
   const [form, setForm]= useState({
     name:'',
     email:'',
@@ -29,11 +30,13 @@ const Contacto = () => {
  
   const handleSubmit=(event)=>{
     event.preventDefault();
-    setShowLoader(true);
+    
+    
+    setOpenAlert(true)
     setTimeout(() => {
-      setShowLoader(false);
-      alert('Su consulta fue enviada con éxito')
-    }, 2000);
+      
+      setOpenAlert(false)
+    }, 5000);
     emailjs.sendForm('service_k8v9j6h', 'template_1o992gh', formulario.current, 'zYxLAVDYmQaJG4_j3')
     .then((result) => {
         console.log(result.text);
@@ -68,7 +71,17 @@ const Contacto = () => {
 
             <button className='btnEnviar' disabled={disabled()}> ENVIAR </button>
         </form>
-        {showLoader && <Loader />}
+            <div className='alert'>
+        { openAlert && <Alert style={{
+          width: '100%',
+          backgroundColor: '#00b6b056'
+          }} >
+          Su consulta fue enviada con éxito
+          </Alert>}
+
+            </div>
+       
+        
     </div>
   )
 }
