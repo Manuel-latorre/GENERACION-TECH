@@ -46,6 +46,14 @@
     align-items: center;
 }
 
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
 @media (max-width: 1000px){
     .contacto{
         width: 50%;

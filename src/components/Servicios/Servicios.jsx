@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import './Servicios.css'
@@ -8,16 +8,26 @@ import 'swiper/css';
 import 'swiper/css/effect-flip';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-
-
+import Loader from '../Loader/Loader'
+import { useNavigate } from 'react-router-dom';
+import avatar from '../../assets/avatar5.png'
 
 
 
 
 const Servicios = () => {
-  return (
-       <div id='servicios' className='services'>
+    const [showLoader, setShowLoader] = useState(false);
+    const navigate= useNavigate();
+    const loader = (event) => {
+        setShowLoader(true);
+        setTimeout(() => {
+            setShowLoader(false); 
+            navigate(`/${event.target.name}`)
+            window.scrollTo(0, 0)
+        }, 1000);
+    };
+    return (
+        <div id='servicios' className='services'>
 
         <div className='container-servicios-mobile'>
         <>
@@ -28,12 +38,12 @@ const Servicios = () => {
         autoplay={{
             delay: 3000,
             disableOnInteraction: false,
-          }}
+        }}
         // pagination={true}
         // navigation={true}
         modules={[EffectFlip, Pagination, Navigation, Autoplay]}
         className="mySwiper"
-      >
+        >
         <SwiperSlide>
         <div className="cardServicio" id='mobile'>
                    <p className='tituloCard' id='titleMobile'>DESARROLLO DE SOFTWARE</p>
@@ -61,13 +71,13 @@ const Servicios = () => {
                         </div>
                    </li>
            
-                   <NavLink to={'/desarrollo'} className='btnConoceMas' href='' id='btnConoceMasMobile'>
+                   <button name='desarrollo' className='btnConoceMas' href='' id='btnConoceMasMobile' onClick={loader}>
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Conocé más
-                    </NavLink>
+                    </button>
             </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -96,13 +106,13 @@ const Servicios = () => {
                            <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Marketing de Contenidos</p>
                        </div>
                    </li>
-                   <NavLink to={'/marketing'} className='btnConoceMas' href='' id='btnConoceMasMobile'>
+                   <button name='marketing' className='btnConoceMas' href='' id='btnConoceMasMobile' onClick={loader}>
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Conocé más
-                    </NavLink>
+                    </button>
                </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -131,13 +141,13 @@ const Servicios = () => {
                            <p style={{marginLeft: 5}}>-------------</p>
                        </div>
                    </li>
-                   <NavLink to={'/comercio'} className='btnConoceMas' href='' id='btnConoceMasMobile'>
+                   <button  onClick={loader}  className='btnConoceMas' id='btnConoceMasMobile' name='comercio'>
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Conocé más
-                    </NavLink>
+                    </button>
                </div>
         </SwiperSlide>
       </Swiper>
@@ -175,13 +185,13 @@ const Servicios = () => {
                         </div>
                    </li>
            
-                   <NavLink to={'/desarrollo'} className='btnConoceMas' href='' id='btnConoceMasMobile'>
+                   <button name='desarrollo' className='btnConoceMas' href='' id='btnConoceMasMobile' onClick={loader}>
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Conocé más
-                    </NavLink>
+                    </button>
             </div>
       
                <div className="cardServicio">
@@ -209,13 +219,13 @@ const Servicios = () => {
                            <p style={{marginLeft: 5, textAlign:'start'}}>Marketing de Contenidos</p>
                        </div>
                    </li>
-                   <NavLink to={'/marketing'} className='btnConoceMas' href='' id='btnConoceMasMobile'>
+                   <button name='marketing' className='btnConoceMas' href='' id='btnConoceMasMobile' onClick={loader}>
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Conocé más
-                    </NavLink>
+                    </button>
                </div>
 
                <div className="cardServicio">
@@ -243,18 +253,20 @@ const Servicios = () => {
                            <p style={{marginLeft: 5}}>-------------</p>
                        </div>
                    </li>
-                   <NavLink to={'/comercio'} className='btnConoceMas' href='' id='btnConoceMasMobile'>
+                   <button name='comercio' className='btnConoceMas' href='' id='btnConoceMasMobile' onClick={loader}>
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Conocé más
-                    </NavLink>
+                    </button>
+                    
                </div>
            </div>
           
           </>
         </div>
+        {showLoader && <Loader />}
        </div> 
     //  <div style={{display:'flex', justifyContent:'space-evenly'}}>
     //      <div id='ds'>
