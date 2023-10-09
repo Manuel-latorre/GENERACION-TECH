@@ -39,19 +39,20 @@ export default function Equipo() {
                   <h2 className="nombre-card-equipo">Damián Gomez</h2>
                   <p className="text-card-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    Commodi.
                   </p>
-                  <a
-                    
-                    href=""
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
           </SwiperSlide>
@@ -62,21 +63,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Paola Vera</h2>
+                  <strong className="nombre-card-equipo">Marketing Manager</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                  Llevo a cabo la planificación, desarrollo y supervisión de las estrategias de comunicación de los canales digitales.
                   </p>
-                  <a
-                    
-                    href=""
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
           </SwiperSlide>
@@ -89,18 +91,20 @@ export default function Equipo() {
                   <h2 className="nombre-card-equipo">Matias Hernandez</h2>
                   <p className="text-card-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    Commodi.
                   </p>
-                  <a
-                    href="https://www.linkedin.com/in/matiashernandez00/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
           </SwiperSlide>
@@ -111,21 +115,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Guillermina Diaz</h2>
+                  <strong className="nombre-card-equipo">Backend Developer</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    Encargado del manejo de informacion y estructura de Bases de Datos 
                   </p>
-                  <a
-                    
-                    href="https://www.linkedin.com/in/guillerminaadiaz/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
           </SwiperSlide>
@@ -136,21 +141,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Lucas Rius</h2>
+                  <strong className="nombre-card-equipo">Backend Developer</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    Encargado del manejo de informacion y estructura de Bases de Datos 
                   </p>
-                  <a
-                    
-                    href="https://www.linkedin.com/in/lucas-rius/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
           </SwiperSlide>
@@ -161,21 +167,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Julian Rodriguez</h2>
+                  <strong className="nombre-card-equipo">Frontend Developer</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    A cargo del diseño, la creación y el mantenimiento de la parte visible y accesible de un sitio web o aplicación
                   </p>
-                  <a
-                    
-                    href="https://www.linkedin.com/in/julianigrodriguez/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
           </SwiperSlide>
@@ -186,21 +193,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Manuel Latorre</h2>
+                  <strong className="nombre-card-equipo">Frontend Developer</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    A cargo de la creación y mantenimiento de la parte visible y accesible de un sitio web o aplicación
                   </p>
-                  <a
-                    
-                    href="https://www.linkedin.com/in/manuel-latorre-936b72223/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
           </SwiperSlide>
@@ -233,19 +241,20 @@ export default function Equipo() {
                   <h2 className="nombre-card-equipo">Damián Gomez</h2>
                   <p className="text-card-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    Commodi.
                   </p>
-                  <a
-                    
-                    href=""
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
         </SwiperSlide>
@@ -256,21 +265,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Paola Vera</h2>
+                  <strong className="nombre-card-equipo">Marketing Manager</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                  Llevo a cabo la planificación, desarrollo y supervisión de las estrategias de comunicación de los canales digitales.
                   </p>
-                  <a
-                    
-                    href=""
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
         </SwiperSlide>
@@ -283,19 +293,20 @@ export default function Equipo() {
                   <h2 className="nombre-card-equipo">Matias Hernandez</h2>
                   <p className="text-card-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    Commodi.
                   </p>
-                  <a
-                    
-                    href="https://www.linkedin.com/in/matiashernandez00/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
         </SwiperSlide>
@@ -306,21 +317,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Guillermina Diaz</h2>
+                  <strong className="nombre-card-equipo">Backend Developer</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    Encargado del manejo de informacion y estructura de Bases de Datos 
                   </p>
-                  <a
-                    
-                    href="https://www.linkedin.com/in/guillerminaadiaz/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
         </SwiperSlide>
@@ -331,21 +343,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Lucas Rius</h2>
+                  <strong className="nombre-card-equipo">Backend Developer</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    Encargado del manejo de informacion y estructura de Bases de Datos 
                   </p>
-                  <a
-                    
-                    href="https://www.linkedin.com/in/lucas-rius/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
         </SwiperSlide>
@@ -356,21 +369,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Julian Rodriguez</h2>
+                  <strong className="nombre-card-equipo">Frontend Developer</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    A cargo del diseño, la creación y el mantenimiento de la parte visible y accesible de un sitio web o aplicación
                   </p>
-                  <a
-                    
-                    href="https://www.linkedin.com/in/julianigrodriguez/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
         </SwiperSlide>
@@ -381,21 +395,22 @@ export default function Equipo() {
                 </div>
                 <div className="text-card-equipo">
                   <h2 className="nombre-card-equipo">Manuel Latorre</h2>
+                  <strong className="nombre-card-equipo">Frontend Developer</strong>
                   <p className="text-card-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi, veritatis ratione voluptatum cupiditate magni
-                    sapiente vel suscipit, quod dolor dolorum placeat facilis
-                    rerum iure minus facere aspernatur consequuntur at vitae!
+                    A cargo de la creación y mantenimiento de la parte visible y accesible de un sitio web o aplicación
                   </p>
-                  <a
-                    
-                    href="https://www.linkedin.com/in/manuel-latorre-936b72223/"
-                    target="_blank"
-                    className="button-linkedin-equipo"
-                  >
-                    {' '}
-                    <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
-                  </a>
+                  <div style={{display:'flex', justifyContent:'center'}}>
+                    <a
+                      
+                      href=""
+                      target="_blank"
+                      className="button-linkedin-equipo"
+                    >
+                      {' '}
+                      <LinkedInIcon style={{ marginRight: 5 }} /> LinkedIn
+                    </a>
+
+                  </div>
                 </div>
               </div>
         </SwiperSlide>

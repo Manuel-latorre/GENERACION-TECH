@@ -41,7 +41,7 @@ const Servicios = () => {
                    <li className='li'>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Desarrollo de Aplicaciones a Medida</p>
+                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Desarrollo y diseños de sitios web a Medida / Landing Pages</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
@@ -53,11 +53,11 @@ const Servicios = () => {
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Desarrollo de Software de E-commerce</p>
+                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Alojamiento Web hosting</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Alojamiento del servidor</p>
+                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Website Testing</p>
                         </div>
                    </li>
            
@@ -77,19 +77,19 @@ const Servicios = () => {
                    <li className='li'>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5, textAlignLast:'start', textAlign:'start', fontSize:14}}>Optimización de Motores de Búsqueda (SEO)</p>
+                           <p style={{marginLeft: 5, textAlignLast:'start', textAlign:'start', fontSize:14}}>Gestión de Redes Sociales y generación de contenido</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5 , textAlignLast:'start', textAlign:'start', fontSize:14}}>Publicidad en Motores de Búsqueda (SEM)</p>
+                           <p style={{marginLeft: 5 , textAlignLast:'start', textAlign:'start', fontSize:14}}>Campañas Social Ads / Email Marketing</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Redes Sociales y Gestión de Contenido</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Inbound Marketing</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Email Marketing</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Optimización y Publicidad en motores de busqueda (SEM /SEO)</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
@@ -112,23 +112,23 @@ const Servicios = () => {
                    <li className='li'>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5}}>-------------</p>
+                           <p style={{marginLeft: 5}}>Auditoría Web</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}} />
-                           <p style={{marginLeft: 5}}>-------------</p>
+                           <p style={{marginLeft: 5}}>Auditoría Social Media</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}} />
-                           <p style={{marginLeft: 5}}>-------------</p>
+                           <p style={{marginLeft: 5}}>Métricas y KPI´s</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}} />
-                           <p style={{marginLeft: 5}}>-------------</p>
+                           <p style={{marginLeft: 5}}>Análisis de ventas y conversiones</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}} />
-                           <p style={{marginLeft: 5}}>-------------</p>
+                           <p style={{marginLeft: 5}}>Análisis de comportamiento de cliente</p>
                        </div>
                    </li>
                    <NavLink to={'/comercio'} className='btnConoceMas' href='' id='btnConoceMasMobile'>
@@ -153,25 +153,25 @@ const Servicios = () => {
                    <p className='tituloCard'>DESARROLLO DE SOFTWARE</p>
                    <hr />
                    <li className='li'>
-                       <div style={{display:'flex', alignItems:'center', marginTop:10}}>
+                   <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}}>Desarrollo de Aplicaciones a Medida</p>
+                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Desarrollo y diseños de sitios web a Medida / Landing Pages</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}}>Diseño de Experiencia e Interfaz de Usuario (UX/UI)</p>
+                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Diseño de Experiencia e Interfaz de Usuario (UX/UI)</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}}>Mantenimiento y Soporte de Software</p>
+                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Mantenimiento y Soporte de Software</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}}>Desarrollo de Software de E-commerce</p>
+                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Alojamiento Web hosting</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start'}}>Alojamiento del servidor</p>
+                           <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Website Testing</p>
                         </div>
                    </li>
            
@@ -188,25 +188,25 @@ const Servicios = () => {
                    <p className='tituloCard'>MARKETING <br/> DIGITAL</p>
                    <hr />
                    <li className='li'>
-                       <div style={{display:'flex', alignItems:'center', marginTop:10}}>
+                   <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5, textAlignLast:'start', textAlign:'start'}}>Optimización de Motores de Búsqueda (SEO)</p>
+                           <p style={{marginLeft: 5, textAlignLast:'start', textAlign:'start', fontSize:14}}>Gestión de Redes Sociales y generación de contenido</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5 , textAlignLast:'start', textAlign:'start'}}>Publicidad en Motores de Búsqueda (SEM)</p>
+                           <p style={{marginLeft: 5 , textAlignLast:'start', textAlign:'start', fontSize:14}}>Campañas Social Ads / Email Marketing</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5, textAlign:'start'}}>Redes Sociales y Gestión de Contenido</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Inbound Marketing</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5, textAlign:'start'}}>Email Marketing</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Optimización y Publicidad en motores de busqueda (SEM /SEO)</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5, textAlign:'start'}}>Marketing de Contenidos</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Marketing de Contenidos</p>
                        </div>
                    </li>
                    <NavLink to={'/marketing'} className='btnConoceMas' href='' id='btnConoceMasMobile'>
@@ -222,25 +222,25 @@ const Servicios = () => {
                    <p className='tituloCard'>COMERCIO <br/> ELECTRONICO</p>
                    <hr />
                    <li className='li'>
-                       <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon className='iconNegro' sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5}}>-------------</p>
+                   <div style={{display:'flex', alignItems:'center', marginTop:10}}>
+                           <CheckCircleIcon sx={{fontSize:40}}/>
+                           <p style={{marginLeft: 5}}>Auditoría Web</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon className='iconNegro' sx={{fontSize:40, color: 'black'}} />
-                           <p style={{marginLeft: 5}}>-------------</p>
+                           <CheckCircleIcon sx={{fontSize:40}} />
+                           <p style={{marginLeft: 5}}>Auditoría Social Media</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon className='iconNegro' sx={{fontSize:40, color: 'black'}} />
-                           <p style={{marginLeft: 5}}>-------------</p>
+                           <CheckCircleIcon sx={{fontSize:40}} />
+                           <p style={{marginLeft: 5}}>Métricas y KPI´s</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon className='iconNegro' sx={{fontSize:40, color: 'black'}} />
-                           <p style={{marginLeft: 5}}>-------------</p>
+                           <CheckCircleIcon sx={{fontSize:40}} />
+                           <p style={{marginLeft: 5}}>Análisis de ventas y conversiones</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon className='iconNegro' sx={{fontSize:40, color: 'black'}} />
-                           <p style={{marginLeft: 5}}>-------------</p>
+                           <CheckCircleIcon sx={{fontSize:40}} />
+                           <p style={{marginLeft: 5}}>Análisis de comportamiento de cliente</p>
                        </div>
                    </li>
                    <NavLink to={'/comercio'} className='btnConoceMas' href='' id='btnConoceMasMobile'>
