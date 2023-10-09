@@ -30,7 +30,7 @@ export default function ControlledAccordions() {
           <p style={{fontSize:20, marginLeft: 10}}>¿Cómo puedo ponerme en contacto con ustedes?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p style={{marginLeft: 10}}>Podes contactarnos completando el formulario desde la sección de “contacto” o simplemente tocar en el botón de chat de nuestra página para hablar con un representante en tiempo real.</p>
+          <p style={{marginLeft: 10, color: '#00fff7'}}>Podes contactarnos completando el formulario desde la sección de “contacto” o simplemente tocar en el botón de chat de nuestra página para hablar con un representante en tiempo real.</p>
         </AccordionDetails>
       </Accordion>
           
@@ -46,7 +46,7 @@ export default function ControlledAccordions() {
           <p style={{fontSize:20, marginLeft: 10}}>¿Cómo elijo mi servicio ideal?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p style={{marginLeft: 10}}>Podes ver la descripción de cada servicio en la sección “servicios”, si no sabes cual es el mejor para tu empresa, envianos un email desde la sección de “contacto”o presiona el botón de chat para hablar con uno de nuestros representantes.</p>
+          <p style={{marginLeft: 10, color: '#00fff7'}}>Podes ver la descripción de cada servicio en la sección “servicios”, si no sabes cual es el mejor para tu empresa, envianos un email desde la sección de “contacto”o presiona el botón de chat para hablar con uno de nuestros representantes.</p>
         </AccordionDetails>
       </Accordion>
         
@@ -63,7 +63,7 @@ export default function ControlledAccordions() {
           
         </AccordionSummary>
         <AccordionDetails>
-          <p style={{marginLeft: 10}}>Si, contactanos y te asesoramos para armar un pack personalizado según tus necesidades.</p>
+          <p style={{marginLeft: 10, color: '#00fff7'}}>Si, contactanos y te asesoramos para armar un pack personalizado según tus necesidades.</p>
         </AccordionDetails>
       </Accordion>
              
@@ -78,7 +78,7 @@ export default function ControlledAccordions() {
           <p style={{fontSize:20, marginLeft: 10}}>¿En cuanto tiempo tendré listo mi proyecto?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p style={{marginLeft: 10}}>Depende. Según el servicio elegido, la complejidad del proyecto, y las funcionalidades se va a estipular un tiempo de entrega.</p>
+          <p style={{marginLeft: 10, color: '#00fff7'}}>Depende. Según el servicio elegido, la complejidad del proyecto, y las funcionalidades se va a estipular un tiempo de entrega.</p>
         </AccordionDetails>
       </Accordion>
      
@@ -93,7 +93,7 @@ export default function ControlledAccordions() {
           <p style={{fontSize:20, marginLeft: 10}}>¿Que métodos de pago aceptan?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p style={{marginLeft: 10}}>-----------------</p>
+          <p style={{marginLeft: 10, color: '#00fff7'}}>-----------------</p>
         </AccordionDetails>
       </Accordion>
              
