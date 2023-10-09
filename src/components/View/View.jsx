@@ -9,6 +9,29 @@ const View=({info})=>{
             <div className='divej'>
                  <h1>{info.title}</h1>
             </div>
+
+            <div>
+                <div>
+                <p>{info.solText1}</p>
+                </div>
+                <br/>
+                <div>
+                <p>{info.solText2}</p>
+                </div>
+                <br/>
+                <div>
+                <p>{info.solText3}</p>
+                </div>
+                <br/>
+                <div>
+                <p>{info.solText4}</p>
+                </div>
+                <br/>
+                <div>
+                <p>{info.solText5}</p>
+                </div>
+                <br/>
+            </div>
            
             {/* <img src={info.image} alt="" style={{width:'98vw', height:'75vh'}}/> */}
             <div className='description1'>
