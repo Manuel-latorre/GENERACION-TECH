@@ -17,6 +17,17 @@ const Footer = () => {
         <h2>Generacion <br /><span style={{color:"#00fff5"}}>Tech</span></h2>
         </div>
       <div className="sectionContainerF">
+        <div className="linksContainerFooter">
+        <h3>Links</h3>
+        <div className="linksFooter">
+            <a style={{padding:4}} href='/'>Inicio</a>
+            <a style={{padding:4}} href='nosotros'>Nostros</a>
+            <a style={{padding:4}} href='/#servicios'>Servicios</a>
+            <a style={{padding:4}} href='/#faqs'>FAQs</a>
+            <a style={{padding:4}} href='/#nuestroEquipo'>Nuestro equipo</a>
+            <a style={{padding:4}} href='/#contacto'>Contacto</a>
+        </div>
+        </div>
         <div className="contacto">
           <h3>Contacto</h3>
           <div className="contact">
@@ -26,26 +37,16 @@ const Footer = () => {
 
           <div className="contact">
               <img src={phone} alt="" />
-              <p style={{marginLeft:10}}>+54 11 54664834</p>
+              <p style={{marginLeft:10}}>+54 ----------</p>
           </div>
 
           <div className="contact">
               <img src={pin} alt="" />
-              <p style={{marginLeft:10}}>Cordoba, Cordoba, Cordoba Berenjenuda 200</p>
+              <p style={{marginLeft:10}}>Cordoba, Cordoba, Cordoba</p>
           </div>
         </div>
-        <div className="linksContainerFooter">
-        <h3>Links</h3>
-        <div className="linksFooter">
-            <p style={{padding:4}}>Inicio</p>
-            <p style={{padding:4}}>Nostros</p>
-            <p style={{padding:4}}>Servicios</p>
-            <p style={{padding:4}}>Nuestro equipo</p>
-            <p style={{padding:4}}>Contacto</p>
-        </div>
-        </div>
         <div className="redesContainerFooter">
-        <h3 style={{textAlign:'center'}}>Redes</h3>
+        <h3 >Redes</h3>
 
             <div className="linkedinContainer">
               <img  src={linkedin} alt="logo linkedin"/>

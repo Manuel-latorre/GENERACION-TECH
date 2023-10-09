@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 
 export default function Equipo() {
   return (
-    <>
+    <div id='nuestroEquipo'>
     <div id='container-swiper-equipo-web'>
     <p id='titleEquipoWeb' style={{fontSize: 30, fontWeight: '400', textAlign:'center', marginTop: 100}}>CONOCE NUESTRO <br/> EQUIPO</p>
       <div className='container-swiper-equipo'>
@@ -417,6 +417,6 @@ export default function Equipo() {
       </Swiper>
     </> 
     </div>
-    </>
+    </div>
   );
 }
