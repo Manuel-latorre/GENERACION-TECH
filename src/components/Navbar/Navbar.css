@@ -180,3 +180,10 @@
         transform: rotate(-45deg) translate(-5px, 1px);
     }
 }
+
+@media(max-width:500px){
+    .nav_toggle{
+        margin-right: 10px;
+    }
+    
+}
