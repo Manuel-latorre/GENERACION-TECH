@@ -3,35 +3,68 @@ import './View.css';
 const View=({info})=>{
     
     return(
-       
-
-        <div className="container">
+       <div className="container">
             <div className='divej'>
                  <h1>{info.title}</h1>
             </div>
 
-            <div>
-                <div>
+        {   info.title !== '¿Quienes Somos?' &&
+        <>
+            <h2 style={{'marginTop':'3rem', 'color':'#00fff78b'}}>Nuestros Servicios</h2>
+        <div className='containerSolution'>
+            <div className="flip-card">
+                <div className='flip-card-inner'>
+                    <div className='flip-card-front'>
+                        <h3>{info.solution1}</h3>
+                    </div>
+                    <div className='flip-card-back'>
                 <p>{info.solText1}</p>
-                </div>
-                <br/>
-                <div>
-                <p>{info.solText2}</p>
-                </div>
-                <br/>
-                <div>
-                <p>{info.solText3}</p>
-                </div>
-                <br/>
-                <div>
-                <p>{info.solText4}</p>
-                </div>
-                <br/>
-                <div>
-                <p>{info.solText5}</p>
-                </div>
-                <br/>
+                    </div>
+                 </div>
             </div>
+            <div className="flip-card">
+                <div className='flip-card-inner'>
+                    <div className='flip-card-front'>
+                        <h3>{info.solution2}</h3>
+                    </div>
+                    <div className='flip-card-back'>
+                <p>{info.solText2}</p>
+                    </div>
+                 </div>
+            </div>
+            <div className="flip-card">
+                <div className='flip-card-inner'>
+                    <div className='flip-card-front'>
+                        <h3>{info.solution3}</h3>
+                    </div>
+                    <div className='flip-card-back'>
+                <p>{info.solText3}</p>
+                    </div>
+                 </div>
+            </div>
+            <div className="flip-card">
+                <div className='flip-card-inner'>
+                    <div className='flip-card-front'>
+                        <h3>{info.solution4}</h3>
+                    </div>
+                    <div className='flip-card-back'>
+                <p>{info.solText4}</p>
+                    </div>
+                 </div>
+            </div>
+            <div className="flip-card">
+                <div className='flip-card-inner'>
+                    <div className='flip-card-front'>
+                        <h3>{info.solution5}</h3>
+                    </div>
+                    <div className='flip-card-back'>
+                <p>{info.solText5}</p>
+                    </div>
+                 </div>
+            </div>
+         </div>
+        </>
+               }
            
             {/* <img src={info.image} alt="" style={{width:'98vw', height:'75vh'}}/> */}
             <div className='description1'>
