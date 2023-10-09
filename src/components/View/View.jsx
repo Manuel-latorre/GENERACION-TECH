@@ -14,8 +14,8 @@ const View=({info})=>{
         <div className='containerSolution'>
             <div className="flip-card">
                 <div className='flip-card-inner'>
-                    <div className='flip-card-front'>
-                        <h3>{info.solution1}</h3>
+                    <div className='flip-card-front' id='df'>
+                        
                     </div>
                     <div className='flip-card-back'>
                 <p>{info.solText1}</p>
@@ -24,8 +24,8 @@ const View=({info})=>{
             </div>
             <div className="flip-card">
                 <div className='flip-card-inner'>
-                    <div className='flip-card-front'>
-                        <h3>{info.solution2}</h3>
+                    <div className='flip-card-front' id='uxui'>
+                        
                     </div>
                     <div className='flip-card-back'>
                 <p>{info.solText2}</p>
@@ -34,8 +34,8 @@ const View=({info})=>{
             </div>
             <div className="flip-card">
                 <div className='flip-card-inner'>
-                    <div className='flip-card-front'>
-                        <h3>{info.solution3}</h3>
+                    <div className='flip-card-front' id='support'>
+                        
                     </div>
                     <div className='flip-card-back'>
                 <p>{info.solText3}</p>
@@ -44,8 +44,8 @@ const View=({info})=>{
             </div>
             <div className="flip-card">
                 <div className='flip-card-inner'>
-                    <div className='flip-card-front'>
-                        <h3>{info.solution4}</h3>
+                    <div className='flip-card-front' id='host'>
+                        
                     </div>
                     <div className='flip-card-back'>
                 <p>{info.solText4}</p>
@@ -54,8 +54,8 @@ const View=({info})=>{
             </div>
             <div className="flip-card">
                 <div className='flip-card-inner'>
-                    <div className='flip-card-front'>
-                        <h3>{info.solution5}</h3>
+                    <div className='flip-card-front' id='test'>
+                        
                     </div>
                     <div className='flip-card-back'>
                 <p>{info.solText5}</p>

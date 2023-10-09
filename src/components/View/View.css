@@ -149,7 +149,31 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
+}
+
+#df{
+      background-image: url('../../assets/df2.gif');
+      border-radius: 20px;
   }
+  #uxui{
+    background-image: url('../../assets/uxui1.gif');
+    border-radius: 20px;
+}
+
+#support{
+    background-image: url('../../assets/support.gif');
+    border-radius: 20px;
+}
+
+#host{
+    background-image: url('../../assets/host.gif');
+    border-radius: 20px;
+}
+
+#test{
+    background-image: url('../../assets/test.gif');
+    border-radius: 20px;
+}
   
   /* Style the back side */
   .flip-card-back {
