@@ -63,7 +63,7 @@ const View = ({ info }) => {
                             </div>
                         </div>
                     </div>
-                </>
+                 </>
             }
 
             {/* <img src={info.image} alt="" style={{width:'98vw', height:'75vh'}}/> */}
