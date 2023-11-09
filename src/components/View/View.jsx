@@ -104,7 +104,7 @@ const View = ({ info }) => {
 
             <div className='preguntasContainer'>
 
-                <h1 style={{color: '#00fff7', margin: 25, textDecoration: 'none' }}>{info.preguntas}</h1>
+                <p style={{color: '#00fff7', margin: 25, textDecoration: 'none', fontSize: 50}}>{info.preguntas}</p>
 
                 <div className='preguntas'>
                     <div className='pregunta'>
