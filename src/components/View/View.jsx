@@ -63,7 +63,7 @@ const View=({info})=>{
                  </div>
             </div>
          </div>
-        </>
+         </>
                }
            
             {/* <img src={info.image} alt="" style={{width:'98vw', height:'75vh'}}/> */}
@@ -101,6 +101,10 @@ const View=({info})=>{
                     <p>{info.p4}</p>
                 </div>
             </div> 
+            {
+               info.title === '¿Quienes Somos?'  && <p style={{'color': 'white'}}>Para Generación Tech una buena planificación es la clave del éxito</p>
+        
+            }
         </div>
            
     )
