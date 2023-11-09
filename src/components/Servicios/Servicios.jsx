@@ -122,23 +122,23 @@ const Servicios = () => {
                    <li className='li'>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5}}>Auditoría Web</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Auditoría Web</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}} />
-                           <p style={{marginLeft: 5}}>Auditoría Social Media</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Auditoría Social Media</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}} />
-                           <p style={{marginLeft: 5}}>Métricas y KPI´s</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Métricas y KPI´s</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}} />
-                           <p style={{marginLeft: 5}}>Análisis de ventas y conversiones</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Análisis de ventas y conversiones</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}} />
-                           <p style={{marginLeft: 5}}>Análisis de comportamiento de cliente</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Análisis de comportamiento de cliente</p>
                        </div>
                    </li>
                    <button  onClick={loader}  className='btnConoceMas' id='btnConoceMasMobile' name='comercio'>
@@ -234,23 +234,23 @@ const Servicios = () => {
                    <li className='li'>
                    <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5}}>Auditoría Web</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Auditoría Web</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}} />
-                           <p style={{marginLeft: 5}}>Auditoría Social Media</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Auditoría Social Media</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}} />
-                           <p style={{marginLeft: 5}}>Métricas y KPI´s</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Métricas y KPI´s</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}} />
-                           <p style={{marginLeft: 5}}>Análisis de ventas y conversiones</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Análisis de ventas y conversiones</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}} />
-                           <p style={{marginLeft: 5}}>Análisis de comportamiento de cliente</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Análisis de comportamiento de cliente</p>
                        </div>
                    </li>
                    <button name='comercio' className='btnConoceMas' href='' id='btnConoceMasMobile' onClick={loader}>
@@ -268,39 +268,6 @@ const Servicios = () => {
         </div>
         {showLoader && <Loader />}
        </div> 
-    //  <div style={{display:'flex', justifyContent:'space-evenly'}}>
-    //      <div id='ds'>
-    //          <div className="card">
-    //                  <p style={{textAlign:'center', marginBottom: 40, fontSize: 25, fontWeight:'bold'}}>DESARROLLO DE SOFTWARE</p>
-    //              <div className="card-content">
-    //              <p style={{fontSize:18}}>Transforma tu visión en realidad con nuestro servicio de desarrollo de sitios web. Creamos experiencias digitales únicas y funcionales que destacan tu marca y atraen a tu audiencia. ¡Construyamos juntos la presencia en línea que tu negocio merece!</p>
-    //              <button className='btnConoceMas'>Conocé mas</button>
-    //              </div>
-    //          </div>
-    //      </div>
-
-    //  <div id='mk'>
-    //      <div class="card">
-    //              <p style={{textAlign:'center', marginBottom: 40, fontSize: 25, fontWeight:'bold'}}>MARKETING DIGITAL</p>
-    //          <div class="card-content">
-    //          <p style={{fontSize:18}}>En un mundo cada vez más conectado, el marketing digital no es solo una opción, es una necesidad. Convierte visitantes en clientes y desbloquea el verdadero potencial de tu negocio en el mundo digital!</p>
-    //          <button className='btnConoceMas'>Conocé mas</button>
-    //          </div>
-    //      </div>
-
-    //  </div>
-
-    //  <div id='ce'>
-    //      <div class="card">
-    //              <p style={{textAlign:'center', marginBottom: 40, fontSize: 25, fontWeight:'bold'}}>COMERCIO ELECTRONICO</p>
-    //          <div class="card-content">
-    //          <p style={{fontSize:18}}>Brindamos soluciones de comercio electrónico para impulsar tu negocio en línea y aumentar tus ventas. ¡Descubre cómo podemos ayudarte a tener éxito en el mundo digital Auditamos canales digitales. Y te elevamos informes detallados de situación.</p>
-    //          <button className='btnConoceMas'>Conocé mas</button>
-    //          </div>
-    //      </div>
-
-    //  </div>
-    //  </div>
   )
 }
 

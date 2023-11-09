@@ -29,6 +29,18 @@ const info={
     solution5:'ANÁLISIS DE COMPORTAMIENTO DEL USUARIO',
     solText5:'Un equipo de optimización de motores de búsqueda (SEM) es esencial para maximizar la visibilidad en línea, atraer tráfico calificado y cumplir con los objetivos de marketing en un mundo digital altamente competitivo. Nuestra experiencia en la gestión de campañas publicitarias en línea marca la diferencia en el rendimiento y el éxito de las empresas en línea.',
     //img5:,
+    preguntas: 'PREGUNTAS FRECUENTES',
+    q1: '¿Qué es el comercio electrónico y cómo funciona?',
+    a1: ' El comercio electrónico es la venta y compra de productos o servicios a través de internet. Funciona mediante una plataforma web que permite mostrar los productos o servicios, procesar los pedidos, recibir los pagos y gestionar las entregas.',
+    // ------
+    q2: '¿Qué ventajas tiene el comercio electrónico para mi empresa?',
+    a2: 'El comercio electrónico te permite ampliar tu mercado potencial, reducir tus costes operativos, mejorar tu competitividad, ofrecer una mayor comodidad y satisfacción a tus clientes, y obtener datos e información valiosa sobre su comportamiento y preferencias.',
+    // ------
+    q3: '¿Qué estrategias de marketing digital puedo aplicar para impulsar mi comercio electrónico?',
+    a3: ' Puedes aplicar diversas estrategias de marketing digital para atraer, convertir y fidelizar a tus clientes en tu comercio electrónico, como: optimizar tu sitio web para los motores de búsqueda (SEO), crear contenido de calidad y valor para tu audiencia, utilizar las redes sociales para generar interacción y confianza, hacer publicidad online en plataformas como Google Ads o Facebook Ads, implementar el email marketing para comunicarte con tus clientes y ofrecerles ofertas personalizadas, aprovechar el poder de la búsqueda por voz para facilitar las consultas de tus clientes, y utilizar el video como un formato atractivo y efectivo para mostrar tus productos o servicios. En Generación Tech contamos con un área especializada en la realización de todo tipo de campaña de Marketing, adaptando tus objetivos al comportamiento de los usuarios.', 
+    // ------
+    q4: '',
+    a4: '',
 }
 const Comercio=()=>{
     return (

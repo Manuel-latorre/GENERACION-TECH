@@ -30,6 +30,18 @@ const info={
     solution5:'OPTIMIZACIÓN DE MOTORES DE BUSQUEDA (SEM)',
     solText5:'Nuestro equipo de optimización de motores de búsqueda está preparado para maximizar la visibilidad en línea, atraer tráfico calificado y cumplir con los objetivos de marketing en un mundo digital altamente competitivo. Nuestra experiencia en la gestión de campañas publicitarias en línea marca la diferencia en el rendimiento y el éxito de su empresa en línea.',
     //img5:,
+    preguntas: 'PREGUNTAS FRECUENTES',
+    q1: '¿Qué beneficios tiene el marketing digital para mi empresa?',
+    a1: 'El marketing digital te permite aumentar la visibilidad y el alcance de tu marca, generar interacción y atraer nuevos clientes, crear una ventaja competitiva frente a tu competencia, determinar e identificar tu público objetivo y medir el éxito y el retorno de tu inversión.',
+    // ------
+    q2: '¿Qué estrategia de marketing digital es la más adecuada para mi empresa?',
+    a2: 'Depende de los objetivos, el presupuesto y el sector de tu empresa. En Generación Tech podemos ayudarte a diseñar un plan de medios y una propuesta personalizada que se adapte a tus necesidades y expectativas, utilizando las herramientas y los canales más convenientes.',
+    // ------
+    q3: '¿Qué beneficios obtengo al contratar Generación Tech?',
+    a3: 'Al contratar Generación Tech, obtienes la garantía de un trabajo profesional, eficiente y de calidad. Además, cuentas con el apoyo y la experiencia de un equipo multidisciplinario que te asesora y te acompaña en todo el proceso.', 
+    // ------
+    q4: '¿Qué tipo de contenido debo generar para mi página web y mis redes sociales?',
+    a4: ' El contenido que generes debe ser relevante, original, atractivo y de valor para tu audiencia. Debe responder a sus intereses, necesidades y problemas, y ofrecerles soluciones. También debe estar optimizado para los motores de búsqueda (SEO) y adaptado al formato y al tono de cada medio.',
 }
 const Marketing=()=>{
     return (
