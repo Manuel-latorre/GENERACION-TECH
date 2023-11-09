@@ -27,7 +27,7 @@ const info={
     solText4:'Las ventas digitales y la conversión son pilares esenciales en el comercio en línea. La capacidad de transformar visitantes en clientes es crucial para el éxito de cualquier negocio en el entorno digital. Nuestro equipo analiza e identifica estas necesidades en el entorno virtual y eleva en informes detallados que lo ayuden a crecer y transformar su realidad de negocio.',
     //img4:,
     solution5:'ANÁLISIS DE COMPORTAMIENTO DEL USUARIO',
-    solText5:'Un equipo de optimización de motores de búsqueda (SEM) es esencial para maximizar la visibilidad en línea, atraer tráfico calificado y cumplir con los objetivos de marketing en un mundo digital altamente competitivo. Nuestra experiencia en la gestión de campañas publicitarias en línea marca la diferencia en el rendimiento y el éxito de las empresas en línea.',
+    solText5:'Comprender cómo los usuarios navegan por un sitio web o una aplicación ayuda a identificar áreas de mejora en la experiencia del usuario. En Generación Tech realizamos pruebas de usabilidad para realizar ajustes en función de los datos recopilados.',
     //img5:,
     preguntas: 'PREGUNTAS FRECUENTES',
     q1: '¿Qué es el comercio electrónico y cómo funciona?',
