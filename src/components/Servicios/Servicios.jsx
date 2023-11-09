@@ -91,19 +91,19 @@ const Servicios = () => {
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5 , textAlignLast:'start', textAlign:'start', fontSize:14}}>Campañas Social Ads / Email Marketing</p>
+                           <p style={{marginLeft: 5 , textAlignLast:'start', textAlign:'start', fontSize:14}}>Publicidad de motores de búsqueda (SEO)</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Inbound Marketing</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Email Marketing</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Optimización y Publicidad en motores de busqueda (SEM /SEO)</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Marketing de contenido</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}}/>
-                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Marketing de Contenidos</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Optimización de motores de búsqueda (SEM)</p>
                        </div>
                    </li>
                    <button name='marketing' className='btnConoceMas' href='' id='btnConoceMasMobile' onClick={loader}>
@@ -138,7 +138,7 @@ const Servicios = () => {
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:30}} />
-                           <p style={{marginLeft: 5}}>Análisis de comportamiento de cliente</p>
+                           <p style={{marginLeft: 5}}>Análisis de comportamiento de usuario</p>
                        </div>
                    </li>
                    <button  onClick={loader}  className='btnConoceMas' id='btnConoceMasMobile' name='comercio'>
@@ -204,19 +204,19 @@ const Servicios = () => {
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5 , textAlignLast:'start', textAlign:'start', fontSize:14}}>Campañas Social Ads / Email Marketing</p>
+                           <p style={{marginLeft: 5 , textAlignLast:'start', textAlign:'start', fontSize:14}}>Publicidad de motores de búsqueda (SEO)</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Inbound Marketing</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Email Marketing</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Optimización y Publicidad en motores de busqueda (SEM /SEO)</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Marketing de contenido</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}}/>
-                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Marketing de Contenidos</p>
+                           <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Optimización de motores de búsqueda (SEM)</p>
                        </div>
                    </li>
                    <button name='marketing' className='btnConoceMas' href='' id='btnConoceMasMobile' onClick={loader}>
@@ -250,7 +250,7 @@ const Servicios = () => {
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
                            <CheckCircleIcon sx={{fontSize:40}} />
-                           <p style={{marginLeft: 5}}>Análisis de comportamiento de cliente</p>
+                           <p style={{marginLeft: 5}}>Análisis de comportamiento de usuario</p>
                        </div>
                    </li>
                    <button name='comercio' className='btnConoceMas' href='' id='btnConoceMasMobile' onClick={loader}>
