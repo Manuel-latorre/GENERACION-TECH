@@ -5,12 +5,12 @@ const View=({info})=>{
     return(
        <div className="container">
             <div className='divej'>
-                 <h1>{info.title}</h1>
+                 <h1>Nuestros Servicios</h1>
             </div>
 
         {   info.title !== '¿Quienes Somos?' &&
         <>
-            <h2 style={{'marginTop':'3rem', 'color':'#00fff78b'}}>Nuestros Servicios</h2>
+            <h2 style={{'marginTop':'3rem', 'color':'#00fff78b'}}>{info.title}</h2>
         <div className='containerSolution'>
             <div className="flip-card">
                 <div className='flip-card-inner'>
